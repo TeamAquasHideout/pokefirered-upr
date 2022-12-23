@@ -19,6 +19,7 @@ Route12_NorthEntrance_2F_EventScript_Lass::
 	checkitemspace ITEM_TM27
 	goto_if_eq VAR_RESULT, FALSE, Route12_NorthEntrance_2F_EventScript_NoRoomForTM27
 	giveitem_msg Route12_NorthEntrance_2F_Text_ReceivedTM27FromLittleGirl, ITEM_TM27
+TmText_08::
 	msgbox Route12_NorthEntrance_2F_Text_ExplainTM27
 	setflag FLAG_GOT_TM27
 	release

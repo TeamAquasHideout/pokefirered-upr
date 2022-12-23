@@ -25,6 +25,7 @@ CeladonCity_Gym_EventScript_GiveTM19::
 	goto_if_eq VAR_RESULT, FALSE, CeladonCity_Gym_EventScript_NoRoomForTM19
 	giveitem_msg CeladonCity_Gym_Text_ReceivedTM19FromErika, ITEM_TM19
 	setflag FLAG_GOT_TM19_FROM_ERIKA
+TmText_05::
 	msgbox CeladonCity_Gym_Text_ExplainTM19
 	release
 	end

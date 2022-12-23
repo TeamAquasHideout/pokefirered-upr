@@ -12,12 +12,12 @@ MAKER_CODE  := 01
 # Version
 ifeq ($(GAME_VERSION),FIRERED)
 TITLE       := POKEMON FIRE
-GAME_CODE   := BPR
+GAME_CODE   := MBDN
 BUILD_NAME  := firered
 else
 ifeq ($(GAME_VERSION),LEAFGREEN)
 TITLE       := POKEMON LEAF
-GAME_CODE   := BPG
+GAME_CODE   := MBDN
 BUILD_NAME  := leafgreen
 else
 $(error unknown version $(GAME_VERSION))
@@ -38,7 +38,7 @@ endif
 # Language
 ifeq ($(GAME_LANGUAGE),ENGLISH)
 BUILD_NAME  := $(BUILD_NAME)
-GAME_CODE   := $(GAME_CODE)E
+GAME_CODE   := $(GAME_CODE)
 else
 $(error unknown language $(GAME_LANGUAGE))
 endif

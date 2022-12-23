@@ -24,6 +24,7 @@ FuchsiaCity_Gym_EventScript_GiveTM06::
 	goto_if_eq VAR_RESULT, FALSE, FuchsiaCity_Gym_EventScript_NoRoomForTM06
 	giveitem_msg FuchsiaCity_Gym_Text_ReceivedTM06FromKoga, ITEM_TM06
 	setflag FLAG_GOT_TM06_FROM_KOGA
+TmText_03::
 	msgbox FuchsiaCity_Gym_Text_KogaExplainTM06
 	release
 	end

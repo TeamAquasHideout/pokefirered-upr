@@ -247,6 +247,7 @@ SilphCo_5F_EventScript_ItemTM01::
 	end
 
 SilphCo_5F_EventScript_ItemCardKey::
+SilphCo_5F_EventScript_ItemCardKey_Rando::
 	finditem ITEM_CARD_KEY
 	end
 

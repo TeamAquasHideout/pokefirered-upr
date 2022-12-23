@@ -44,6 +44,7 @@ RocketHideout_B4F_EventScript_SilphScope::
 	lock
 	faceplayer
 	removeobject LOCALID_SILPH_SCOPE
+RocketHideout_B4F_EventScript_RandoSilphScope::
 	giveitem ITEM_SILPH_SCOPE
 	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
 	release
@@ -67,6 +68,7 @@ RocketHideout_B4F_EventScript_LiftKey::
 	faceplayer
 	setflag FLAG_CAN_USE_ROCKET_HIDEOUT_LIFT
 	removeobject LOCALID_LIFT_KEY
+RocketHideout_B4F_EventScript_RandoLiftKey::
 	giveitem ITEM_LIFT_KEY
 	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
 	release

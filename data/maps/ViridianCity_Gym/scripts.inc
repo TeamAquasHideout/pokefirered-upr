@@ -31,6 +31,7 @@ ViridianCity_Gym_EventScript_GiveTM26::
 	goto_if_eq VAR_RESULT, FALSE, ViridianCity_Gym_EventScript_NoRoomForTM26
 	giveitem_msg ViridianCity_Gym_Text_ReceivedTM26FromGiovanni, ITEM_TM26
 	setflag FLAG_GOT_TM26_FROM_GIOVANNI
+TmText_07::
 	msgbox ViridianCity_Gym_Text_ExplainTM26
 	release
 	end

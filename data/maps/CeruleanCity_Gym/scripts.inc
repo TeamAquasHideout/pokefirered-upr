@@ -24,6 +24,7 @@ CeruleanCity_Gym_EventScript_GiveTM03::
 	goto_if_eq VAR_RESULT, FALSE, CeruleanCity_Gym_EventScript_NoRoomForTM03
 	giveitem_msg CeruleanCity_Gym_Text_ReceivedTM03FromMisty, ITEM_TM03
 	setflag FLAG_GOT_TM03_FROM_MISTY
+TmText_01::
 	msgbox CeruleanCity_Gym_Text_ExplainTM03
 	release
 	end

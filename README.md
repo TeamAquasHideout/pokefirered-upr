@@ -1,11 +1,21 @@
-# Pokémon FireRed and LeafGreen
+# Pokémon FireRed and LeafGreen (With UPR-Speedchoice Support)
 
 [![Build Status][travis-badge]][travis]
 
 [travis]: https://travis-ci.org/pret/pokefirered
 [travis-badge]: https://travis-ci.org/pret/pokefirered.svg?branch=master
 
-This is a disassembly of Pokémon FireRed and LeafGreen.
+This is a decompilation of Pokémon FireRed and LeafGreen.
+
+## To set up UPR-Speedchoice support:
+1. Build the repo like normal
+2. Install capstone with: `sudo apt install libcapstone-dev`
+3. Navigate to the tools/inigen folder and run `make inigen`
+4. Run `./inigen ../../pokefirered.elf gen3_offsets.ini --code MBDN --name "Fire Red (U) (1.0)"` to build the .ini file every time you make a change (this can be automated in the Makefile if you know what you're doing)
+5. Open the randomizer.jar using WinRAR or another program capable of editing .jar files.
+6. Navigate to com/dabomstew/pkrandom/config and delete gen3_offsets.ini, and "Add/Import" the gen3_offsets.ini file generated in the tools/inigen folder from step 4
+
+------
 
 It builds the following ROMs:
 

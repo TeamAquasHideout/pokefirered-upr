@@ -14,6 +14,7 @@ This is a decompilation of Pokémon FireRed and LeafGreen.
 4. Run `./inigen ../../pokefirered.elf gen3_offsets.ini --code MBDN --name "Fire Red (U) (1.0)"` to build the .ini file every time you make a change (this can be automated in the Makefile if you know what you're doing)
 5. Open the randomizer.jar using WinRAR or another program capable of editing .jar files.
 6. Navigate to com/dabomstew/pkrandom/config and delete gen3_offsets.ini, and "Add/Import" the gen3_offsets.ini file generated in the tools/inigen folder from step 4
+7. Save the edited randomizer and use it (NOTE: THE TM/HM TAB SEEMS TO CORRUPT MEMORY, DO NOT USE)
 
 ------
 
